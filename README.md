@@ -6,7 +6,7 @@ It is still being developed.
 
 ### Working Features
 
-* Get threads and check if new 
+* Get threads and check if they are new 
 * Search for spam looking for keywords in threads
 * Check for new PM's and get their titles
 
