@@ -18,12 +18,12 @@ Run it. SMTP is not working yet.
 
 ### To-Do's
 
-* SPAM FIND = SEND EMAIL/ALERT
-* PM FIND = SEND EMAIL/ALERT
-* ANSWER PMS (AUTOMATIC?)
-* MARK ALL PMS AS READ
-* LOGIN SYSTEM
-* SET UP CRON/TASK SCHEDULER
+* Send alerts if Spam is found
+* Send alert if new PM is received
+* Automatic response to some PMs
+* Mark all PM's as read
+* Login system to fill user variables and all
+* Set up Cron/Task Scheduler
 
 ### Previews:
 
