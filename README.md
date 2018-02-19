@@ -40,6 +40,7 @@ It is still being developed.
       # * Send alerts if new PM's are found                   #
       # * Automatic responses to PM's                         #
       # * Mark all PM's as read                               #   
+      # * Use pickle to enhance the settings                  #
       #                                                       #
       ##################         TO-DO        #################
 
