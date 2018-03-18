@@ -23,7 +23,6 @@ pip install -r requirements.txt
 <p>
 Note that keyring is not mandatory (if set to manual) as it requires Mac OS X Keychain, Freedesktop Secret Service, KWallet or Windows Credential Locker</p>
 
-<br>
 <h4>
 Current working features
 </h4>
