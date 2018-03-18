@@ -51,4 +51,5 @@ TO-DO
 
 #### General Screenshot
 ![Login](https://i.imgur.com/oxZG6CG.png)
+![Imgur](https://i.imgur.com/f8G608z.png)
 ![General Screenshot](https://i.imgur.com/NiGUF4X.png)
