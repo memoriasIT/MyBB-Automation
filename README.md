@@ -1,49 +1,48 @@
-## MyBB-Automation
-Automate simple tasks with Python. Developed for personal use but you can use it if you want.
+<h1 align="center">
+  <img src="https://i.imgur.com/9HtMAdT.png" width="250">
+  <br>
+  MyBB-Automation
+</h1>
+
+Automate simple tasks with Python. Get your PM's, detect SPAM and even get recent threads in your own console.
 It was mainly created for the forum "Greysec", however you can change the code and make it work for other websites.
+<br>
+It is as simple as changing the xpath!
 
-It is still being developed.
-
-      ##################     HOW TO USE     ###################
-      #                                                       #
-      #   1 Install dependencies *!                           #
-      #      - requests==2.13.0                               #
-      #      - colorama==0.3.9                                #
-      #      - keyring==11.0.0   **!                          #
-      #      - lxml==3.7.3                                    #
-      #                                                       #
-      #   2 Set settings in loginsystem.py                    #
-      #   * All manual is set by default                      #
-      #                                                       #
-      #   3 Run ScraperV2.py from now on                      #
-      #                                                       #
-      #   *!  This script will install all dependencies:      #
-      #       pip install -r requirements.txt                 #
-      #   **! Keyring is not mandatory if all set to manual   #
-      ##################     HOW TO USE     ###################
+This is not the final release, I plan on adding a notification system via SMTP or Telegram.
 
 
-      ##################  WORKING FEATURES  ###################
-      #                                                       #
-      #   * Get threads and check if they are new             #
-      #   * Search for spam looking for keywords in threads   #
-      #   * Login system using keychains/manual               #
-      #   * Reload app every x seconds                        #
-      #   * ReadMe Message                                    #
-      #                                                       #
-      ##################  WORKING FEATURES  ###################
+<h4>
+Requirements
+</h4>
+<p>
+      In order to run the tool you will need python and the dependencies found in requirements.txt, they can be automatically installed with </p>
+```
+pip install -r requirements.txt
+```
+<p>
+Note that keyring is not mandatory (if set to manual) as it requires Mac OS X Keychain, Freedesktop Secret Service, KWallet or Windows Credential Locker</p>
 
+<br>
+<h4>
+Current working features
+</h4>
+<ul style="list-style-type:disc">
+  <li>Get threads and check if they are new</li>
+  <li>Search for spam looking for keywords in threads</li>
+  <li>Login system using keychains/manual</li>
+  <li>Reload app every x seconds</li>
+</ul>  
 
-      ##################         TO-DO        #################
-      #                                                       #
-      # * Send alerts if SPAM is found                        #
-      # * Send alerts if new PM's are found                   #
-      # * Automatic responses to PM's                         #
-      # * Mark all PM's as read                               #   
-      # * Use pickle to enhance the settings                  #
-      #                                                       #
-      ##################         TO-DO        #################
-
+<h4>
+TO-DO
+</h4>
+<ul style="list-style-type:disc">
+  <li>Send alerts if SPAM is found</li>
+  <li>Send alerts if new PM's are found</li>
+  <li>Automatic responses to PM's</li>
+  <li>Mark all PM's as read</li>
+</ul>  
 
 ### Previews:
 
